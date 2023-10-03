@@ -1,24 +1,13 @@
-# Big Game Survey 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
+# Sistema de cadastrar usuários, vendas, produtos e pedidos, exibindo-os e suas relações.
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/JoaoVictorCSousa/workshop-springboot3-jpa/blob/main/LICENSE) 
 
 # Sobre o projeto
 
 https://wmazoni-sds1.netlify.app
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+É uma aplicação back-end que tem como objetivo criar um CRUD em JAVA, apresentando os princípios de operações básicas de armazenamento persistente.
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
-
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
-
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
-
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
-
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+A aplicação consiste em um modelo no qual a pessoa conseguirá cadastrar usuários, vendas, produtos, categorias, registrar pagamentos e exibir suas ligações. Ex: Cliente de ID 1, comprou dois produtos X, da Categoria Y, por R$100.00 e no sistema, o pedido já consta como pago. Além disso, por ser uma operação CRUD, os usuários, categorias e produtos podem ser criados, atualizados, deletados e exibidos.
 
 # Tecnologias utilizadas
 ## Back end
@@ -26,16 +15,12 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 - Spring Boot
 - JPA / Hibernate
 - Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
+- 
 ## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
+- Banco de dados: H2 ( Banco de Dados em memória para testes)
+
+## Teste de requisições
+- Postman
 
 # Como executar o projeto
 
@@ -44,34 +29,17 @@ Pré-requisitos: Java 11
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/JoaoVictorCSousa/workshop-springboot3-jpa
 
 # entrar na pasta do projeto back end
-cd backend
+cd workshop-springboot3-jpa
 
 # executar o projeto
 ./mvnw spring-boot:run
 ```
 
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
-
 # Autor
 
-Wellington Mazoni de Andrade
+João Victor Carvalho de Sousa
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/joaovicarvalho/
