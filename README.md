@@ -5,7 +5,7 @@
 
 É uma aplicação back-end que tem como objetivo criar um CRUD em JAVA, apresentando os princípios de operações básicas de armazenamento persistente.
 
-A aplicação consiste em um modelo no qual a pessoa conseguirá cadastrar usuários, vendas, produtos, categorias, registrar pagamentos e exibir suas ligações. Ex: Cliente de ID 1, comprou dois produtos X, da Categoria Y, por R$100.00 e no sistema, o pedido já consta como pago. Além disso, por ser uma operação CRUD, os usuários, categorias e produtos podem ser criados, atualizados, deletados e exibidos.
+A aplicação consiste em um modelo no qual a pessoa conseguirá cadastrar usuários, vendas, produtos, categorias, registrar pagamentos e exibir suas relações. Ex: Cliente de ID 1, comprou dois produtos X, da Categoria Y, por R$100.00 e no sistema, o pedido já consta como pago. Além disso, por ser uma operação CRUD, os usuários, categorias e produtos podem ser criados, atualizados, deletados e exibidos.
 
 # Modelo Conceitual
 ![Domain Model](https://github.com/JoaoVictorCSousa/workshop-springboot3-jpa/blob/main/assets/domainModel.png)
