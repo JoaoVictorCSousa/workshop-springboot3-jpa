@@ -17,7 +17,6 @@ A aplicação consiste em um modelo no qual a pessoa conseguirá cadastrar usuá
 - Spring Boot
 - JPA / Hibernate
 - Maven
-  
 ## Implantação em produção
 - Banco de dados: H2 ( Banco de Dados em memória para testes)
 
